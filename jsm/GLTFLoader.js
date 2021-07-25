@@ -275,7 +275,8 @@ class GLTFLoader extends Loader {
 			}
 
 		}
-
+		
+		console.log(content);
 		const json = JSON.parse( content );
 
 		if ( json.asset === undefined || json.asset.version[ 0 ] < 2 ) {
